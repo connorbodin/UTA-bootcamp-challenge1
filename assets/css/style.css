@@ -23,20 +23,23 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* Changed from div to nav to reflect navigation */
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* Changed from div to nav to reflect navigation */
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
+/* Changed from div to nav to reflect navigation */
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -161,15 +164,16 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
 .online-reputation-management img {
     max-height: 200px;
-}
+} */
 
-.social-media-marketing img {
+/* Consolodated to img to max height 200px */
+img {
     max-height: 200px;
 }
 
@@ -193,6 +197,7 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 20px;
 }
 
 .footer h2 {
